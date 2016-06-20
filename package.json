@@ -1,6 +1,6 @@
 {
   "name": "gulp-img-retina",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "add img attribute 'srcset' for retina",
   "main": "index.js",
   "repository": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/germanyt/gulp-img-retina",
   "dependencies": {
     "cheerio": "^0.20.0",
-    "vinyl-source-stream": "^0.1.1"
+    "through2": "^2.0.1"
   },
   "devDependencies": {
     

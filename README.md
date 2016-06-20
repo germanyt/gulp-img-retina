@@ -48,5 +48,7 @@ And get html out:
 
 ### options.suffix
 Type: ```Object```
+
 Default: ```{1: '', 2: '@2x'}```
+
 The suffix will insert to image's path, the key is resolution, and value is suffix.

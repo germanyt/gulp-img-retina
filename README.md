@@ -29,3 +29,24 @@ gulp.task('views', function() {
 
 });
 ```
+
+You put html in:
+``` html
+<figure>
+	<img src="images/default/example.jpg" alt="example image" />
+</figure>
+```
+
+And get html out:
+``` html
+<figure>
+	<img src="images/default/example.jpg" alt="example image" srcset="images/default/example.jpg 1x, images/default/example@2x.jpg 2x" />
+</figure>
+```
+
+## Options (Optional)
+
+### options.suffix
+Type: `Object`
+Default: `{1: '', 2: '@2x'}`
+The suffix will insert to image's path, the key is resolution, and value is suffix.

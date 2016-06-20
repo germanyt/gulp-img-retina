@@ -1,0 +1,35 @@
+{
+  "name": "gulp-img-retina",
+  "version": "0.1.0",
+  "description": "add img attribute 'srcset' for retina",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/germanyt/gulp-img-retina"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha  -R spec"
+  },
+  "keywords": [
+    "retina",
+    "srcset",
+    "image",
+    "gulpplugin"
+  ],
+  "author": "Gavin Tang <germany213@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/germanyt/gulp-img-retina/issues"
+  },
+  "homepage": "https://github.com/germanyt/gulp-img-retina",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "vinyl-source-stream": "^0.1.1"
+  },
+  "devDependencies": {
+    
+  }
+}

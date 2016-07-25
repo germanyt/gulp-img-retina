@@ -1,4 +1,7 @@
 # gulp-img-retina
+
+[![Build Status](https://travis-ci.org/germanyt/gulp-img-retina.svg?branch=master)](https://travis-ci.org/germanyt/gulp-img-retina)
+
 add img attribute 'srcset' for retina
 
 ## Prerequisites

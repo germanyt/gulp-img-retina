@@ -1,6 +1,6 @@
 /*!
- * gulp-img-retina | https://github.com/koistya/gulp-img-retina
- * Copyright (c) Konstantin Tarkus (@koistya). See LICENSE.txt
+ * gulp-img-retina | https://github.com/germanyt/gulp-img-retina
+ * Copyright (c) Gavin Tang (@germanyt).
  */
 
 /* global describe, it */

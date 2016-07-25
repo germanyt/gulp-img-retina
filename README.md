@@ -2,7 +2,7 @@
 add img attribute 'srcset' for retina
 
 ## Prerequisites
-You must have a 2x image in the folder which the original image in.
+You must have retina images in the folder which the original image in.
 
 ## Install
 
@@ -40,7 +40,7 @@ You put html in:
 And get html out:
 ``` html
 <figure>
-	<img src="images/default/example.jpg" alt="example image" srcset="images/default/example.jpg 1x, images/default/example@2x.jpg 2x" />
+	<img src="images/default/example.jpg" alt="example image" srcset="images/default/example.jpg 1x, images/default/example@2x.jpg 2x, images/default/example@3x.jpg 3x" />
 </figure>
 ```
 
@@ -49,6 +49,6 @@ And get html out:
 ### options.suffix
 Type: ```Object```
 
-Default: ```{1: '', 2: '@2x'}```
+Default: ```{1: '', 2: '@2x', 3: '@3x'}```
 
 The suffix will insert to image's path, the key is resolution, and value is suffix.

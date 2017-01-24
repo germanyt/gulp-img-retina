@@ -40,6 +40,11 @@ var imageRetina = function(options){
 
 			var tmpSrc = [];
 			var match = src.match(reImageSrc);
+			
+			// not a valid src attribute
+			if (match === null){
+				return true;
+			}
 
 			for( var key in options.suffix ){
 				tmpSrc.push( match[1]+options.suffix[key]+match[2]+' '+key+'x' );

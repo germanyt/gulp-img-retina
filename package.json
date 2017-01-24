@@ -1,6 +1,6 @@
 {
   "name": "gulp-img-retina",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "add img attribute 'srcset' for retina",
   "main": "index.js",
   "repository": {

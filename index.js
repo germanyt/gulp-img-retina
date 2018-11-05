@@ -4,7 +4,7 @@ var through = require('through2');
 var cheerio = require('cheerio');
 var objectAssign = require('object-assign');
 
-var reImageSrc = /^((?:(?:http|https):\/\/)?(?:.+))(\.(?:gif|png|jpg|jpeg|webp|svg))$/;
+var reImageSrc = /^((?:(?:http|https):\/\/)?(?:.+))(\.(?:gif|png|jpg|jpeg|webp))$/;
 
 var defaultOptions = {
 	decodeEntities: false,
